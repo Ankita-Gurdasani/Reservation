@@ -1,0 +1,25 @@
+<table>
+	<tr>
+		<td class="reservations-label">Reservations</td>
+	</tr>
+</table>
+<table class="reservation-list">
+	<tr *ngFor="let reservation of reservationList">
+		<td>
+			<div>
+				<div>
+					<div class="reservation-guest-count">
+						<span>{{reservation.guestCount}}</span>
+					</div>
+					<span class="reservation-guest-name">{{reservation.guestName}}</span>
+					<span class="reservation-from float-right">{{reservation.from}}</span>
+				</div>
+				<div class="reservation-icons">
+					<i class="fa fa-phone" aria-hidden="true"></i>
+					<i class="fa fa-comment" aria-hidden="true"></i>
+					<i class="fa fa-calendar" aria-hidden="true"></i>
+				</div>
+			</div>
+		</td>
+	</tr>
+</table>

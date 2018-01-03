@@ -1,0 +1,13 @@
+.navbar{
+    padding: 0;
+    border-top: 0.3rem solid #F1C40F;
+}
+
+.nav-item{
+    padding: 0.5rem;
+}
+
+.active{
+    background-color: #F1C40F;
+    color: white;
+}

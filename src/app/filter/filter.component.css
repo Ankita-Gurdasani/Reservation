@@ -1,0 +1,42 @@
+.row{
+    padding: 0.5rem 0 0.5rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.container-filter-date{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+.button-date-selector{
+    margin-left: 0.125rem;
+    margin-right: 0.125rem;
+    background-color: white;
+    color: #222;
+    border-color: #dddddd;
+    transition: all 0.5s;
+}
+
+.button-date-selector:hover{
+    background-color: #dddddd;
+}
+
+.button-create-reservation{
+    margin-left: 0.5rem;
+    background-color: #F4D03F;
+    color: white;
+    border-color: #F1C40F;
+    transition: all 0.5s;
+}
+
+.button-create-reservation:hover{
+    background-color: #F1C40F;
+}
+
+.fa{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
